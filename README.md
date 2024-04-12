@@ -19,6 +19,7 @@ username: boma-s3-bucket.s3.eu-north-1.amazonaws.com
 ln -s /etc/nginx/sites-available/mybucket /etc/nginx/sites-enabled
 ```
 
+### NGINX proxy file configuration
 
 ```markdown
 server {
@@ -34,7 +35,7 @@ server {
     }
 }
 ```
-Actual changes made to the proxy configuration:
+**Actual changes made to the proxy configuration:**
 
 1. **/index.html** added to the **proxy_pass** link
 
