@@ -6,7 +6,7 @@ To be able to view object over the internet, ACL, will be allowed at object leve
 
 ![ACL-at-Object-level1](correction2-step39.png)
 
-**Static site enabling:**
+**Enabling Static website:**
 
 When asked to enter "username"
 username: format: bucket-name.s3.region.amazonaws.com
